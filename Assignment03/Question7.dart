@@ -5,8 +5,9 @@ void main() {
     'tue': 3234.0,
     "fri": 432.0
   };
-  expenses.update('fri', (value) => 5000.0);
+
   expenses.putIfAbsent("fri", () => 5000.0);
+  expenses.update('fri', (value) => 5000.0);
 
   print(expenses);
 }

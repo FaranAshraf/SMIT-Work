@@ -18,6 +18,9 @@ void main() {
     34,
     353,
   ];
+  print("Orignal list : $numbers");
+  print("=========================");
+
   int greatest = 0;
 
   for (var i = 0; i < numbers.length; i++) {

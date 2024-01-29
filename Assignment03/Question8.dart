@@ -6,9 +6,10 @@ void main() {
     {'name': 'Sarah', 'eligible': true},
     {'name': 'Tom', 'eligible': false},
   ];
-
+  print("Orignal list : $usersEligibility");
+  print("=========================");
   usersEligibility
       .removeWhere((eligibility) => eligibility["eligible"] == false);
 
-  print(usersEligibility);
+  print("After update : $usersEligibility");
 }

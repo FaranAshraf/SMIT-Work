@@ -13,6 +13,9 @@ void main() {
     64474,
     89475
   ];
+  print("Orignal list : $numbers");
+  print("=========================");
+
   int greatest = 0;
 
   for (var i = 0; i < numbers.length; i++) {
